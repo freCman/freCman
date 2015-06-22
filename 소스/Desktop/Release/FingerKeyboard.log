@@ -1,0 +1,59 @@
+﻿빌드 시작: 2015-05-28 오후 2:52:30
+     1>2 노드의 "C:\Users\USER\Dropbox\v0.7\FingerKeyboard\FingerKeyboard.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\FingerKeyboard.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\FingerKeyboard.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp CamSetDialog.cpp CurrentMode.cpp FingerKeyboard.cpp FingerKeyboardDlg.cpp Hand.cpp ImageProcessor.cpp KeyButton.cpp MajorFingerKeyboard.cpp Mouse.cpp MouseListener.cpp PaperKeyboard.cpp PaperKeyboard_TypeA.cpp TrayIconMng.cpp
+         Camera.cpp
+     1>Camera.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>Camera.cpp(56): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         CamSetDialog.cpp
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+         CurrentMode.cpp
+     1>CurrentMode.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>CurrentMode.cpp(3): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         FingerKeyboard.cpp
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+         FingerKeyboardDlg.cpp
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+         Hand.cpp
+     1>Hand.cpp(1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         ImageProcessor.cpp
+     1>ImageProcessor.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>ImageProcessor.cpp(509): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         KeyButton.cpp
+     1>KeyButton.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>KeyButton.cpp(2): warning C4627: '#include <Windows.h>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>KeyButton.cpp(104): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         MajorFingerKeyboard.cpp
+     1>MajorFingerKeyboard.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>MajorFingerKeyboard.cpp(154): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         Mouse.cpp
+     1>Mouse.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>Mouse.cpp(20): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         MouseListener.cpp
+     1>MouseListener.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+         PaperKeyboard.cpp
+     1>PaperKeyboard.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+         PaperKeyboard_TypeA.cpp
+     1>PaperKeyboard_TypeA.cpp(1): warning C4627: '#include "Header.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'stdafx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>PaperKeyboard_TypeA.cpp(323): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+         TrayIconMng.cpp
+     1>c:\users\user\dropbox\v0.7\fingerkeyboard\Header.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'opencv/cv.h': No such file or directory
+     1>"C:\Users\USER\Dropbox\v0.7\FingerKeyboard\FingerKeyboard.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:06.54
